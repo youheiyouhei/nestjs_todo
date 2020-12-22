@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "nest",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "dist/entities/**/*.entity.js"
+  ],
+  "migrations": [
+    "dist/migrations/**/*.js"
+  ]
+}
