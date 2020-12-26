@@ -23,4 +23,8 @@ export class TasksService {
   async update(id: number, updateTaskDto: UpdateTaskDto) {
     return await this.taskRepository.update(id, updateTaskDto)
   }
+
+  async remove(id: number) {
+    return await this.taskRepository.delete(id)
+  }
 }
